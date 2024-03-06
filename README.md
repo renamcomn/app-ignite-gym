@@ -1,4 +1,4 @@
-## App Ignite Gym
+## App Ignite Gym 💪🏼🏋🏽‍♂️
 
 ## ✨ Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:

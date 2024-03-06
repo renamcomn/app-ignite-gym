@@ -5,6 +5,7 @@ import { useFonts, Roboto_400Regular, Roboto_700Bold } from '@expo-google-fonts/
 import Loading from '@components/Loading';
 import { THEME } from 'src/theme';
 import SignIn from '@screens/Signin';
+import { Routes } from '@routes/index';
 
 export default function App() {
   let [fontsLoaded] = useFonts({
@@ -19,7 +20,7 @@ export default function App() {
         backgroundColor='transparent' 
         translucent
       />
-      {fontsLoaded ? <SignIn /> : <Loading /> }
+      {fontsLoaded ? <Routes /> : <Loading /> }
     </NativeBaseProvider>
   );
 }
